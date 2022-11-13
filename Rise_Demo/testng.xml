@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test"></test>
+  <test name="chrometest">
+   <parameter name="browser" value="chrome"/>
+    <classes>
+     
+      <class name="com.Rise_Demo.Scripts.LoginTest"/>
+      <class name="com.Rise_Demo.Scripts.HomeTest"/>
+     
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
