@@ -23,7 +23,7 @@ public class ExtentReport implements ITestListener {
 	 ExtentTest test;
 
 		
-	 public void configureReport() { //call this onStart() method.
+	 public void configureReport() { 
 	  
 	  String timeStamp = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss").format(new Date());
 	  //Create folder if not exists
@@ -32,15 +32,12 @@ public class ExtentReport implements ITestListener {
 	    if(!reportPath.exists()) {
 	     reportPath.mkdir();
 	    }
-	    
-	    //create file
+	   
 	    sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir")+"//ExtentReport//"+"ExtentReport_" + timeStamp + ".html");
 	    reports = new ExtentReports();
 	    reports.attachReporter(sparkReporter);
 	    
-	    //System details
-	    //reports.setSystemInfo("PC Name", "VISHEESH");
-	    //reports.setSystemInfo("OS", "Windows 10");
+	   
 	    sparkReporter.config().setDocumentTitle("Extent Report Sample");
 	    sparkReporter.config().setReportName("Report Summary");
 	    sparkReporter.config().setTheme(Theme.DARK);
