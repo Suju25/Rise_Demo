@@ -9,6 +9,9 @@ POM with Page Factory
 Excel Utility with Apache POI
 
 
+Extent Report
+
+
 Screenshots on failure
 
 
@@ -18,13 +21,10 @@ Utility Methods
 To Execute:
 
 
-RightClick on Rise_Demo 
+Maven Clean
 
 
-Run As--->Maven Clean
-
-
-Run As--->Maven Install
+Maven Install
 
 
 Framework Details:
