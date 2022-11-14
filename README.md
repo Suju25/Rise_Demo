@@ -30,6 +30,13 @@ Maven Install
 Framework Details:
 
 
+
+Expand src/test/resources Config.properties file is added where we are saving our url
+
+
+Expand src/main/java  under package com.Rise_Demo.Constants there is one Constant java file where all constant values which is used is code is stored
+
+
 Expand src/main/java under package com.Rise_Demo.Pages there are 2 java files Login page & Home Page(Functionality of Login Page & Home Page)
 
 
