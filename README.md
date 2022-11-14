@@ -42,5 +42,9 @@ Expand src/main/resources ,TestData are added to resource directory(TestData_Log
 Expand src/test/java,under pakage com.Rise_Demo.Scripts there we have 3 tests defined in this framework(BaseTest,LoginTest,HomeTest)
 
 
+
+Expand src/test/java ,under package com.Rise_Demo.Report there is one test Extent Report for Report Generation
+
+
 Total testcases:7
 
